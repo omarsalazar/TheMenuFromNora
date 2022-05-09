@@ -1,0 +1,11 @@
+[run]
+branch = True
+source = .
+omit = *./migrations/*,
+       /urls.py,
+       *test*,
+       *admin*,
+       /manage.py,
+       /CornershopTest/config/*,
+       /CornershopTest/wsgi.py,
+       */__init__.py*
